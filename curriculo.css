@@ -1,0 +1,45 @@
+body{
+    font-family: Garamond;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: cornsilk;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0 1);
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+h1, h2{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.header{
+margin-bottom: 30px;
+text-align: center;
+border-bottom: 2px solid #708090;
+}
+
+ .section{
+    margin-bottom: 25px;
+}
+
+ .section p {
+
+    margin: 5px 0;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+ul{
+    padding-left: 20px;
+}
