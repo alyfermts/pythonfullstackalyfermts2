@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2{
+    color: black;
+    margin-bottom: 20px;
+}
+
+p {
+    color:black;
+    
+}
+.logo{
+    width: 100%;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
