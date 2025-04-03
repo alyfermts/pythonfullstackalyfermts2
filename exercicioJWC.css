@@ -15,9 +15,17 @@ p {
     
 }
 .logo{
-    width: 100%;
-    display: flex
+    width:70;
+    
+
 ;
     align-items: center;
     justify-content: center;
+}
+
+nav{
+    
+    display: flex;
+
+    flex-direction: column;
 }
