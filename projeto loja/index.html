@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Loja </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="" id="navbarNav" >
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Produto</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Login</a></li>
+
+                </ul>
+            </div>
+           
+        </div>
+
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4">Bem vindo à nossa loja</h1>
+        <p class="lead">Os melhores tênis, com os melhores preços!</p>
+        <a href="#" target="_blank" class="btn btn-primary btn-lg">Ver Ofertas</a>
+        </div>
+    </section>
+    
+    <section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Produtos em Destaque</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+
+                <div class="card">
+                    <img src="https://static.netshoes.com.br/produtos/tenis-adidas-lite-racer-30-feminino/18/3ZP-3550-018/3ZP-3550-018_zoom1.jpg?ts=1711540292&ims=544x" class="card-img-top" alt="">
+                    <div class="card-body">
+                                <h5 class="card-title">Tênis Adidas</h5>
+                                <p class="card-text">Para um melhor ajuste nos pés.</p>
+                                <p class="text-primary fw-bold">R$ 299,90</p>
+                                <a href="#" class="btn btn-outline-primary w-100">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="">
+                    <div class="card-body">
+                                <h5 class="card-title">Tênis armani</h5>
+                                <p class="card-text">Para um melhor ajuste nos pés.</p>
+                                <p class="text-primary fw-bold">R$ 399,90</p>
+                                <a href="#" class="btn btn-outline-primary w-100">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="card">
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjQfZUL_CMothDe5LXUmPreA-HqkM0RDU2bJr9Ohlw-_FFBt2H" class="card-img-top" alt="">
+                    <div class="card-body">
+                                <h5 class="card-title">Tênis nike </h5>
+                                <p class="card-text">Para um melhor ajuste nos pés.</p>
+                                <p class="text-primary fw-bold">R$ 599,90</p>
+                                <a href="#" class="btn btn-outline-primary w-100">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+</body>
+</html>
